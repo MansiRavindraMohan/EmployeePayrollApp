@@ -74,9 +74,9 @@ body {
 
 .row-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-bottom: 10px;
-    align-items: center;
+    align-items: stretch;
     border: 0px solid green;
 }
 
@@ -116,7 +116,7 @@ error-output {
 }
 
 .profile-radio-content>label {
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     align-items: center;
 }
@@ -125,4 +125,9 @@ error-output {
     width: 40px;
     border-radius: 50%;
     margin-left: 12px;
+}
+
+lable {
+    padding: 12px 12px 12px 0px;
+    display: inline-block;
 }
