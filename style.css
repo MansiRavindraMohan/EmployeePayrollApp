@@ -127,7 +127,7 @@ error-output {
     margin-left: 12px;
 }
 
-label {
+lable {
     padding: 12px 12px 12px 0px;
     display: inline-block;
 }
@@ -223,4 +223,5 @@ select {
         flex-direction: column-reverse;
         align-items: flex-start;
     }
+
 }
